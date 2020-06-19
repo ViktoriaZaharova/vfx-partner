@@ -1,15 +1,13 @@
 @import "vars"
 
-//@media only screen and (max-width: 1670px)
-//  .advantages-box
-//    width: 100%
 
 @media only screen and (max-width: 1550px)
   .section-tools__image
     max-width: 990px
 
   .box-tools8
-    bottom: 125px
+    bottom: 170px
+    left: 30px
 
   .box-tools8 h3:after
     right: -120px
@@ -19,7 +17,8 @@
     right: -120px
 
   .box-tools7
-    bottom: 146px
+    right: 375px
+    bottom: 188px
 
   .box-tools7 h3:after
     width: 60px
@@ -29,7 +28,8 @@
     left: -60px
 
   .box-tools6
-    bottom: 255px
+    right: 190px
+    bottom: 285px
 
   .box-tools6 h3:after
     width: 100px
@@ -39,7 +39,8 @@
     left: -100px
 
   .box-tools5
-    bottom: 273px
+    bottom: 340px
+    right: 7px
 
   .box-tools5 h3:after
     width: 40px
@@ -49,7 +50,8 @@
     left: -40px
 
   .box-tools4
-    top: 280px
+    top: 244px
+    right: 61px
 
   .box-tools4 h3:after
     width: 130px
@@ -59,7 +61,7 @@
     left: -130px
 
   .box-tools3
-    top: 265px
+    top: 233px
     left: 405px
     h3
       &:after
@@ -69,7 +71,8 @@
         right: -100px
 
   .box-tools2
-    top: 359px
+    top: 333px
+    left: 178px
     h3
       &:after
         width: 410px
@@ -78,7 +81,8 @@
         right: -410px
 
   .box-tools1
-    top: 430px
+    top: 411px
+    left: 25px
     h3
       &:after
         width: 190px
@@ -186,6 +190,10 @@
   .header-menu li a
     font-size: 12px
     padding: 22px 8px
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
 
   .list-social
     margin: 0 0 33px
@@ -292,6 +300,7 @@
     font-size: 24px
     line-height: normal
 
+
   .description
     font-size: 16px
 
@@ -358,16 +367,12 @@
   .advantages-box
     width: auto
     margin: 0 0 5px
-    .number
-      justify-content: flex-end
-    p
-      margin: 0 0 0 auto
-      text-align: right
 
   .advantages-wrapper
     flex-direction: column
-    align-items: flex-end
-    margin: 16px 0 0
+    align-items: flex-start
+    margin: 9px 0 0
+    padding: 0 0 0 20px
 
   .about
     padding: 40px 0
@@ -376,16 +381,19 @@
     margin: 27px 0 0
 
   .main-download
-    padding: 16px 0 40px
+    padding: 16px 0 52px
     .main-image
-      margin: 16px 0
+      margin: 19px auto 0
+      width: 100%
+      max-width: none
     .btn-group
       width: 100%
       align-items: center
     .btn
-      width: 207px
-      height: 36px
-      margin: 0 0 24px
+      width: 100%
+      max-width: 330px
+      height: 56px
+      margin: 0 0 15px
       font-size: 14px
 
       .icon
@@ -396,6 +404,10 @@
     .info-text
       font-size: 12px
       line-height: 18px
+      margin: 25px 0 0
+
+  .works-download .video-wrapper
+    margin: 26px 0 38px
 
 
 
@@ -431,7 +443,6 @@
     margin: 0 17px 0 0
 
   header
-    padding: 24px 0 0
     background: transparent
     .header-menu, .dropItem, .support-box
       display: none
@@ -454,9 +465,6 @@
     .support-box
       font-size: 14px
       margin: 0 0 15px
-
-  .logo
-    width: 56px
 
   footer
     display: flex
@@ -514,8 +522,6 @@
     width: 12px
     height: 12px
 
-  .about-img
-    width: 542px
 
   .about
     .info-text
@@ -559,16 +565,14 @@
       &:last-child
         margin: 0
 
-  .main-download
-    .main-image
-      width: 800px
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 575px)
   .main
-    padding: 14px 0 30px
+    padding: 14px 0 0
     .btn
-      margin: 45px 0 0
+      margin: 32px 0 35px
       width: 153px
       height: 36px
 
@@ -577,24 +581,27 @@
 
   .main-text__subtitle
     line-height: 99.4%
-    font-size: 45px
+    font-size: 65px
 
   h1, h2
-    font-size: 18px
-    line-height: 22px
+    font-size: 23px
+    line-height: 28px
+
 
   .description
     margin: 8px 0 0
 
   .main-text
     justify-content: flex-start
-    padding: 47px 0 0
+    padding: 27px 0 0
+    position: relative
+    z-index: 1
 
   .main-image
-    width: 380px
+    width: 466px
 
   .section-tools
-    padding: 30px 0 0
+    padding: 35px 0 0
 
   .playpause
     width: 33px
@@ -630,9 +637,6 @@
   table td, table th
     min-width: 70px
 
-  .main-download .main-image
-    width: 416px
-    margin: 16px auto
 
   .works-download .video-wrapper
     margin: 28px 0 40px
@@ -650,6 +654,18 @@
     padding: 24px 12px
     font-size: 12px
 
+  .works-download .btn
+    display: none
+
+  .about-img
+    margin: 46px auto 0
+    max-width: 330px
+    width: 100%
+    height: 193px
+    background: url("../img/img-mob.png") no-repeat center
+      size: contain
+    img
+      display: none
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 420px)
