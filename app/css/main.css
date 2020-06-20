@@ -613,7 +613,7 @@ footer {
     height: 16px; }
 
 .main {
-  padding: 285px 0 30px;
+  padding: 120px 0 30px;
   position: relative;
   background: url("../img/bg.jpeg") no-repeat center;
     background-size: cover; }
@@ -678,10 +678,7 @@ footer {
     margin: 33px 0 0 0; }
 
 .main-image {
-  width: 992px;
-  position: absolute;
-  right: -326px;
-  top: 123px; }
+  width: 1180px; }
   .main-image img {
     width: 100%; }
 
@@ -1291,7 +1288,10 @@ table {
       height: 32px;
       margin: 0 10px 0 0; }
   .main-download .main-image {
-    width: 1390px; }
+    width: 1390px;
+    position: relative;
+    top: 0;
+    right: 0; }
 
 .works-download {
   background: transparent;
@@ -1488,9 +1488,8 @@ table {
   .main-text__subtitle {
     font-size: 70px; }
   .main {
-    padding: 120px 0 30px; }
+    padding: 90px 0 30px; }
   .main-image {
-    top: 20px;
     width: 900px; }
   .main .btn {
     margin: 30px 0 80px; }
@@ -1763,7 +1762,7 @@ table {
   .main-image {
     width: 800px; }
   .main {
-    padding: 80px 0 30px; } }
+    padding: 50px 0 30px; } }
 
 @media only screen and (max-width: 860px) {
   .about-box {
@@ -1943,8 +1942,6 @@ table {
     padding: 27px 0 0;
     position: relative;
     z-index: 1; }
-  .main-image {
-    width: 466px; }
   .section-tools {
     padding: 35px 0 0; }
   .playpause {
@@ -2004,11 +2001,14 @@ table {
       display: none; } }
 
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+  .main-image {
+    margin: 0 0 0 -30px;
+    width: 466px; } }
+
 @media only screen and (max-width: 420px) {
   footer .footer-box {
     width: 48%; }
-  .main-image {
-    right: -346px; }
   .section-tools__image {
     margin: -101px 0 0 -40px; }
   .stages-work__box {
