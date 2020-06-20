@@ -613,7 +613,8 @@ footer {
     height: 16px; }
 
 .main {
-  padding: 96px 0 30px;
+  padding: 285px 0 30px;
+  position: relative;
   background: url("../img/bg.jpeg") no-repeat center;
     background-size: cover; }
   .main .list-social {
@@ -652,7 +653,9 @@ footer {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  position: relative;
+  z-index: 1; }
 
 .box-scroll {
   display: -webkit-box;
@@ -675,7 +678,10 @@ footer {
     margin: 33px 0 0 0; }
 
 .main-image {
-  width: 992px; }
+  width: 992px;
+  position: absolute;
+  right: -326px;
+  top: 123px; }
   .main-image img {
     width: 100%; }
 
@@ -841,7 +847,7 @@ footer {
   position: relative;
   display: table;
   margin: 65px auto;
-  max-width: 1195px; }
+  max-width: 892px; }
 
 .playpause {
   position: absolute;
@@ -856,7 +862,7 @@ footer {
   z-index: 2; }
 
 .works {
-  padding: 111px 0 79px;
+  padding: 70px 0 29px;
   background: #fff url("../img/line.svg") no-repeat center;
     background-size: 100%; }
   .works h2 {
@@ -864,7 +870,7 @@ footer {
 
 .works-section {
   background: #FFFFFF;
-  padding: 90px 0 95px; }
+  padding: 50px 0 55px; }
 
 .works-slider {
   width: 100%;
@@ -998,7 +1004,7 @@ footer {
     width: 206px;
     height: 16px;
     position: absolute;
-    top: 190px;
+    top: 170px;
     right: 0;
     background: url("../img/arrow-stages.svg") no-repeat;
       background-size: contain; }
@@ -1012,15 +1018,15 @@ footer {
     background: url("../img/shadow.svg") no-repeat center;
       background-size: cover;
     width: 100%;
-    height: 399px; }
+    height: 350px; }
   .stages-work__box > * {
     position: relative;
     z-index: 1; }
   .stages-work__box .number {
     color: #1D2337;
     font-weight: 900;
-    line-height: 427px;
-    font-size: 350px; }
+    line-height: 357px;
+    font-size: 300px; }
   .stages-work__box .icon {
     min-width: 64px;
     width: 64px;
@@ -1056,7 +1062,7 @@ footer {
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 120px; }
+  top: 100px; }
 
 .stages-work__content {
   display: -webkit-box;
@@ -1073,7 +1079,7 @@ footer {
 
 .about {
   background: #FFFFFF;
-  padding: 70px 0;
+  padding: 50px 0;
   color: #22283C; }
   .about h2 {
     color: #22283C; }
@@ -1118,7 +1124,7 @@ footer {
   margin: 60px 0 0; }
 
 .advantages-box {
-  margin: 0 0 40px;
+  margin: 0 0 30px;
   position: relative;
   color: #424B62;
   font-size: 12px;
@@ -1154,7 +1160,7 @@ footer {
       line-height: 20px; }
 
 .about-box {
-  margin: 0 0 48px; }
+  margin: 0 0 28px; }
 
 .about-img {
   width: 1157px;
@@ -1209,7 +1215,7 @@ footer {
   background: url("../img/bg4.svg") no-repeat center bottom;
     background-size: 100%; }
   .about-license .btn-group {
-    margin: 0 0 208px;
+    margin: 0 0 158px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -1397,71 +1403,72 @@ table {
 
 @media only screen and (max-width: 1550px) {
   .section-tools__image {
-    max-width: 990px; }
+    max-width: 790px;
+    margin: -100px auto -50px; }
   .box-tools8 {
-    bottom: 170px;
-    left: 30px; }
+    bottom: 115px;
+    left: -25px; }
   .box-tools8 h3:after {
     right: -120px;
     width: 120px; }
   .box-tools8 h3:before {
     right: -120px; }
   .box-tools7 {
-    right: 375px;
-    bottom: 188px; }
+    right: 252px;
+    bottom: 129px; }
   .box-tools7 h3:after {
     width: 60px;
     left: -60px; }
   .box-tools7 h3:before {
     left: -60px; }
   .box-tools6 {
-    right: 190px;
-    bottom: 285px; }
+    right: 100px;
+    bottom: 215px; }
   .box-tools6 h3:after {
     width: 100px;
     left: -100px; }
   .box-tools6 h3:before {
     left: -100px; }
   .box-tools5 {
-    bottom: 340px;
-    right: 7px; }
+    bottom: 250px;
+    right: -37px; }
   .box-tools5 h3:after {
     width: 40px;
     left: -40px; }
   .box-tools5 h3:before {
     left: -40px; }
   .box-tools4 {
-    top: 244px;
-    right: 61px; }
+    top: 194px;
+    right: 15px; }
   .box-tools4 h3:after {
     width: 130px;
     left: -130px; }
   .box-tools4 h3:before {
     left: -130px; }
   .box-tools3 {
-    top: 233px;
-    left: 405px; }
+    top: 183px;
+    left: 278px; }
     .box-tools3 h3:after {
       width: 100px;
       right: -100px; }
     .box-tools3 h3:before {
       right: -100px; }
   .box-tools2 {
-    top: 333px;
-    left: 178px; }
+    top: 260px;
+    left: 90px; }
     .box-tools2 h3:after {
-      width: 410px;
-      right: -410px; }
+      width: 350px;
+      right: -350px; }
     .box-tools2 h3:before {
-      right: -410px; }
+      right: -350px; }
   .box-tools1 {
-    top: 411px;
-    left: 25px; }
+    top: 328px;
+    left: 0; }
     .box-tools1 h3:after {
-      width: 190px;
-      right: -190px; }
+      width: 150px;
+      right: -150px; }
     .box-tools1 h3:before {
-      right: -190px; }
+      right: -150px; }
   .works-slider__image {
     width: 400px;
     min-width: 400px; }
@@ -1481,9 +1488,10 @@ table {
   .main-text__subtitle {
     font-size: 70px; }
   .main {
-    padding: 50px 0 30px; }
+    padding: 120px 0 30px; }
   .main-image {
-    width: 630px; }
+    top: 20px;
+    width: 900px; }
   .main .btn {
     margin: 30px 0 80px; }
   .stages-work {
@@ -1506,7 +1514,9 @@ table {
   table {
     margin: 10px 0 34px; }
   table td {
-    padding: 13px; } }
+    padding: 13px; }
+  .container {
+    max-width: 1170px; } }
 
 @media only screen and (max-width: 1250px) {
   .header-menu li a {
@@ -1749,7 +1759,11 @@ table {
       line-height: 18px;
       margin: 25px 0 0; }
   .works-download .video-wrapper {
-    margin: 26px 0 38px; } }
+    margin: 26px 0 38px; }
+  .main-image {
+    width: 800px; }
+  .main {
+    padding: 80px 0 30px; } }
 
 @media only screen and (max-width: 860px) {
   .about-box {
@@ -1994,7 +2008,7 @@ table {
   footer .footer-box {
     width: 48%; }
   .main-image {
-    margin: 0 0 0 -40px; }
+    right: -346px; }
   .section-tools__image {
     margin: -101px 0 0 -40px; }
   .stages-work__box {
